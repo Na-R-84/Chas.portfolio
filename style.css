@@ -193,12 +193,12 @@ body .home-section .txt-box span:hover a {
   font-weight: 700;
 }
 
-body .home-page.home-page {
+body .home-page-container.home-page-container {
   max-width: 920px;
   margin: 0 auto;
 }
 
-body .home-page h3 {
+body .home-page-container h3 {
   color: #F6F4F1;
   font-family: 'Caveat';
   padding: 1rem;
@@ -206,14 +206,14 @@ body .home-page h3 {
   letter-spacing: 2px;
 }
 
-body .home-page .projects {
+body .home-page-container .projects {
   width: 100%;
   height: 100vh;
   margin: auto;
 }
 
 @media (min-width: 592px) {
-  body .home-page .projects {
+  body .home-page-container .projects {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -229,7 +229,7 @@ body .home-page .projects {
   }
 }
 
-body .home-page .projects .card {
+body .home-page-container .projects .card {
   min-width: 280px;
   width: 320px;
   height: 380px;
@@ -241,7 +241,7 @@ body .home-page .projects .card {
   transition: all .5s ease-in-out;
 }
 
-body .home-page .projects .card img {
+body .home-page-container .projects .card img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
@@ -249,7 +249,7 @@ body .home-page .projects .card img {
   border-radius: 5px;
 }
 
-body .home-page .projects .card .pro-name {
+body .home-page-container .projects .card .project-name {
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -263,7 +263,7 @@ body .home-page .projects .card .pro-name {
   opacity: .2;
 }
 
-body .home-page .projects .card .pro-name h2 {
+body .home-page-container .projects .card .project-name h2 {
   text-align: center;
   line-height: 220px;
   font-size: 52px;
@@ -273,7 +273,7 @@ body .home-page .projects .card .pro-name h2 {
   padding: 0 .5rem;
 }
 
-body .home-page .projects .card .pro-name .caption-txt {
+body .home-page-container .projects .card .project-name .caption-txt {
   position: absolute;
   left: 1.6em;
   width: 80%;
@@ -282,8 +282,8 @@ body .home-page .projects .card .pro-name .caption-txt {
   color: #7c898b2a;
 }
 
-body .home-page .projects .card .pro-name .caption-txt a {
-  padding: .1em 1.2em;
+body .home-page-container .projects .card .project-name .caption-txt a {
+  padding: .3em 1.2em;
   border-radius: 10px;
   margin-left: 1em;
   font-size: .6em;
@@ -291,26 +291,26 @@ body .home-page .projects .card .pro-name .caption-txt a {
   cursor: pointer;
 }
 
-body .home-page .projects .card .pro-name .caption-txt a:hover {
+body .home-page-container .projects .card .project-name .caption-txt a:hover {
   -webkit-transition: 1s;
   transition: 1s;
   -webkit-box-shadow: -1px -1px 6px #f17319;
           box-shadow: -1px -1px 6px #f17319;
 }
 
-body .home-page .projects .card .pro-name .caption-txt:hover {
+body .home-page-container .projects .card .project-name .caption-txt:hover {
   color: #f17319;
   border: 1px solid #fca31dab;
   -webkit-transition: .5s;
   transition: .5s;
 }
 
-body .home-page .projects .card .pro-name .caption-txt:hover a {
+body .home-page-container .projects .card .project-name .caption-txt:hover a {
   color: #F6F4F1;
   background-color: #253439;
 }
 
-body .home-page .projects .card .pro-name:hover {
+body .home-page-container .projects .card .project-name:hover {
   -webkit-transition: all .5s ease-in;
   transition: all .5s ease-in;
   opacity: .7;

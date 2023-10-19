@@ -153,8 +153,8 @@ body{
             }
         }
     }
-    .home-page{
-        &.home-page{
+    .home-page-container{
+        &.home-page-container{
             max-width: 920px;
             margin: 0 auto;
         }
@@ -191,7 +191,7 @@ body{
                     border-radius: 5px;
                 
                 }
-                .pro-name{
+                .project-name{
                     position: absolute;
                     margin-left: auto;
                     margin-right: auto;
@@ -221,7 +221,7 @@ body{
                         padding: .75rem;
                         color:#7c898b2a;
                         a{
-                            padding: .1em 1.2em;
+                            padding: .3em 1.2em;
                             border-radius: 10px;
                             margin-left: 1em;
                             font-size: .6em;
